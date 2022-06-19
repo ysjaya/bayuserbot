@@ -17,7 +17,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 
 from config import *
-from ProjectMan import LOGGER
+from userbot import LOGGER
 
 HAPP = None
 
