@@ -2,7 +2,7 @@
   
   "name": "BayUserbot",
   "description": "[BayUserbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
-  "logo": ("https://telegra.ph/file/5e82760d6ef347713720e.jpg"),
+  "logo": "https://telegra.ph/file/5e82760d6ef347713720e.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
