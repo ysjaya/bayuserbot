@@ -31,7 +31,7 @@ GIT_TOKEN = getenv(
 GROUP = getenv("GROUP", "euphoricfams")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
+PMPERMIT_PIC = getenv("PMPERMIT_PIC", "https://telegra.ph/file/5e82760d6ef347713720e.jpg")
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 REPO_URL = getenv(
     "REPO_URL",
