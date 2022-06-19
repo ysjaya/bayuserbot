@@ -68,9 +68,9 @@ def git():
         UPSTREAM_REPO = REPO_URL
     try:
         repo = Repo()
-        LOGGER("ProjectMan").info(f"Git Client Found")
+        LOGGER("userbot").info(f"Git Client Found")
     except GitCommandError:
-        LOGGER("ProjectMan").info(f"Invalid Git Command")
+        LOGGER("userbot").info(f"Invalid Git Command")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:
@@ -95,7 +95,7 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -U -r requirements.txt")
-        LOGGER("ProjectMan").info("Fetched Latest Updates")
+        LOGGER("userbot").info("Fetched Latest Updates")
 
 
 def is_heroku():
@@ -109,8 +109,8 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
                 HAPP = Heroku.app(HEROKU_APP_NAME)
-                LOGGER("ProjectMan").info(f"Heroku App Configured")
+                LOGGER("userbot").info(f"Heroku App Configured")
             except BaseException:
-                LOGGER("ProjectMan").warning(
+                LOGGER("userbot").warning(
                     f"Pastikan HEROKU_API_KEY dan HEROKU_APP_NAME anda dikonfigurasi dengan benar di config vars heroku."
                 )
