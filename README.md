@@ -12,4 +12,3 @@
 - [mrismanaziz](https://github.com/mrismanaziz/PyroMan-Userbot) - PyroMan-Userbot
 
 
-INGAT REPO ORIGINAL MASIH DI PRIVATE KALAU ANDA MAU DEPLOY REPO INI ANDA WAJIB PUNYA GIT_TOKEN DARI ADMIN KALIAN BISA MINTA DI [@PrimeSupportGroup](https://t.me/primesupportgroup)
