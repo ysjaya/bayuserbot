@@ -120,7 +120,7 @@ bot4 = (
         session_name=STRING_SESSION4,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="userbot/modules"),
     )
     if STRING_SESSION4
     else None
@@ -131,7 +131,7 @@ bot5 = (
         session_name=STRING_SESSION5,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="ProjectMan/modules"),
+        plugins=dict(root="userbot/modules"),
     )
     if STRING_SESSION5
     else None
